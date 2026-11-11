@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:armadillo_scute"
+  ],
+  "result": {
+    "id": "minecraft:bone_meal"
+  }
+}

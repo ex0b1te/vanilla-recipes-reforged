@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": [
+    "minecraft:rotten_flesh"
+  ],
+  "result": {
+    "id": "minecraft:dried_kelp",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 9,
+        "can_always_eat": false
+      },
+      "minecraft:item_name": "Beef Jerky",
+      "minecraft:enchantment_glint_override": true
+    },
+    "count": 1
+  },
+  "experience": 1,
+  "cookingtime": 400
+}

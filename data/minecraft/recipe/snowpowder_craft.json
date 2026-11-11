@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#u#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:snowball",
+    "u": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "minecraft:powder_snow_bucket"
+  }
+}

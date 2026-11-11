@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:elytra"
+  ],
+  "addition": [
+    "minecraft:netherite_ingot"
+  ],
+  "template": [
+    "minecraft:dragon_head"
+  ],
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:custom_elytra_armor",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "chest",
+          "display": {
+            "type": "default"
+          }
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:custom_elytra_toughness",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:custom_elytra_knockback_ressitance",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ],
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S# ",
+    "#S ",
+    "   "
+  ],
+  "key": {
+    "S": "minecraft:sulfur",
+    "#": "minecraft:netherrack"
+  },
+  "result": {
+    "id": "minecraft:cinnabar",
+	"count": 4
+  }
+}

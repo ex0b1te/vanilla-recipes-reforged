@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": [
+      "minecraft:potion"
+    ],
+    "potion_contents": {
+      "potions": "minecraft:awkward"
+    }
+  },
+  "reagent": {
+    "item": "minecraft:sculk"
+  },
+  "output": {
+    "id": "minecraft:experience_bottle",
+    "count": 1
+  }
+}

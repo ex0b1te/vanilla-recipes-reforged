@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "RR#",
+    "WR#"
+  ],
+  "key": {
+    "#": "minecraft:feather",
+    "R": "minecraft:rotten_flesh",
+    "W": "minecraft:white_dye"
+  },
+  "result": {
+    "id": "minecraft:phantom_membrane"
+  }
+}

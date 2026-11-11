@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": [
+      "minecraft:glass_bottle"
+    ]
+  },
+  "reagent": {
+    "item": [
+      "minecraft:milk_bucket"
+    ]
+  },
+  "output": {
+    "id": "minecraft:potion",
+"components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 16250871,
+        "custom_effects": [
+          {
+            "id": "minecraft:luck",
+            "duration": 1,
+            "show_particles": false,
+            "show_icon": false
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:custom_name": {
+        "text": "Milk 🥛",
+        "color": "white"
+      },
+      "minecraft:tooltip_display": {
+        "hide_tooltip": false,
+        "hidden_components": [
+          "minecraft:potion_contents"
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": "Removes all Effects!",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 1,
+        "animation": "drink",
+        "sound": "minecraft:entity.generic.drink",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:clear_all_effects"
+          }
+        ],
+      "minecraft:custom_data": {
+        "my_server": {
+          "is_hot_milk": true
+        }
+      }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": [
+      "minecraft:potion"
+    ],
+    "potion_contents": {
+      "potions": "minecraft:thick"
+    }
+  },
+  "reagent": {
+    "item": "minecraft:cocoa_beans"
+  },
+  "output": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1,
+        "animation": "drink",
+        "sound": "minecraft:entity.generic.drink",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:clear_all_effects"
+          }
+        ]
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 4860948,
+        "custom_effects": [
+          {
+            "id": "minecraft:absorption",
+            "duration": 1200,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:custom_name": {
+        "text": "Hot Cocoa ☕",
+        "color": "white"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": []
+      },
+      "minecraft:lore": [
+        {
+          "text": "Chocodrink Forever!",
+          "color": "gold"
+        },
+        {
+          "text": "Removes all negative effects first!",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

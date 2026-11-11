@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A#A",
+    "#o#",
+    "A#A"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_block",
+    "#": "minecraft:amethyst_cluster",
+    "o": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:budding_amethyst"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": [
+      "minecraft:potion"
+    ],
+    "potion_contents": {
+      "potions": "minecraft:awkward"
+    }
+  },
+  "reagent": {
+    "item": "minecraft:chorus_fruit"
+  },
+  "output": {
+    "id": "minecraft:dragon_breath",
+    "count": 1
+  }
+}

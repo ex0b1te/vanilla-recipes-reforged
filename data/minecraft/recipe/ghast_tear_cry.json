@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 9900,
+  "ingredient": "minecraft:crying_obsidian",
+  "result": {
+    "id": "minecraft:ghast_tear",
+	"count": 3
+  }
+}

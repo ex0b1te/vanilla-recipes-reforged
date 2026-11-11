@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G"
+  ],
+  "key": {
+    "#": "minecraft:ink_sac",
+    "G": "minecraft:glow_berries"
+  },
+  "result": {
+    "id": "minecraft:glow_ink_sac"
+  }
+}
